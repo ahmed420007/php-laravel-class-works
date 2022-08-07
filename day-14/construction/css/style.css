@@ -1,0 +1,71 @@
+.nav-buttons:hover
+{
+    background-color: rgba(218, 218, 9, 0.712);
+}
+
+.my-caption
+{
+
+    
+    top: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.39);
+    padding-top: 150px;
+}
+.inner-caption
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.welcome-section
+{
+    padding-bottom: 58px;
+}
+.circle
+{
+    height: 160px;
+    width: 160px;
+    border-radius:  150px 150px 150px 150px;
+    background: rgba(21,140,186,0);
+    border: 10px solid rgb(255, 192, 57);
+    position: relative;
+    left: 20%;
+}
+.circle:before
+{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border: solid 10px rgba(255, 192, 57, 0.637);
+    border-radius: 50%;
+}
+.circle:after
+{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    right: -30px;
+    bottom: -30px;
+    border: solid 10px rgba(255, 192, 57, 0.425);
+    border-radius: 50%;
+}
+.circle i
+{
+    padding-top: 30%;
+    padding-left: 30%;
+}
+.about-section
+{
+    background-color: #f2f7fa;
+    
+}
+.about-text
+{
+    margin-top: 50px;
+    margin-left: 30px;
+}
