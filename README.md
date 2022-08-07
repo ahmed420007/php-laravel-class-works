@@ -1,0 +1,1 @@
+# php-laravel-class-works
