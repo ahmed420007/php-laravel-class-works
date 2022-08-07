@@ -1,0 +1,128 @@
+.nav
+{
+    background-color: rgb(0, 217, 255);
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
+.nav ul
+{
+list-style-type: none;
+}
+.nav ul li
+{
+    float: left;
+    width: 120px;
+}
+.nav ul li a
+{
+
+    border: 1px solid rgb(62, 4, 109);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.nav ul li a:hover
+{
+    background-color: rgb(58, 250, 58);
+    color: white;
+    transform: scale(1.5);
+}
+
+.div-one
+{
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(66, 224, 198);
+    margin: 50px;
+    border-radius: 50%;
+}
+.div-two
+{
+    float: left;
+    height: 150px;
+    width: 300px;
+    background-color: rgb(35, 115, 207);
+    margin: 50px;
+    border-radius: 150px 150px 0 0;
+}
+.div-three
+{
+    float: left;
+    height: 150px;
+    width: 300px;
+    background-color: rgb(35, 207, 101);
+    margin: 50px;
+    border-radius: 0 0 150px 150px;
+}
+.div-four
+{
+    float: left;
+    height: 300px;
+    width: 400px;
+    background-image: url(../img/unnamed.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    margin: 50px;
+    transition: 0.8s;
+    /* transform: skewY(30deg); */
+}
+.div-four:hover{
+    /* transform: scale(1.5); */
+    /* transform: rotateY(360deg);
+    transform: rotateX(360deg); */
+    /* transform: skew(30deg);
+    transform: skewX(30deg); */
+    transform: skewY(0deg);
+}
+.wrapper
+{
+    float: left;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    border: 2px solid rgb(55, 58, 221);
+    box-sizing: border-box;
+}
+.div-five, .div-six
+{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(47, 194, 47);
+    float: left;
+    margin: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+.div-five
+{
+    transform: skewY(30deg);
+}
+.div-six
+{
+    transform: skewY(-30deg);
+}
+.div-seven, .div-eight
+{
+    float: left;
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(5, 202, 169);
+    margin: 20px;
+}
+
+.div-seven
+{
+    background: linear-gradient( to left, red, black, blue);
+}
+.div-eight
+{
+    background: radial-gradient(black, green, blue);
+}
